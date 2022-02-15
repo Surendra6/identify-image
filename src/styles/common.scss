@@ -1,0 +1,26 @@
+$scroll-width: 5px;
+$radius: 4px;
+
+.custom-scroll-bar {
+  scrollbar-width: thin;
+
+  &::-webkit-scrollbar {
+    width: $scroll-width;
+    height: $scroll-width;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: $radius;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #bdbdbd;
+    border-radius: $radius;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background: #9c9b9b;
+    border-radius: $radius;
+  }
+}
