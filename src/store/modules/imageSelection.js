@@ -1,14 +1,6 @@
 const state = {
   notRealImages: [],
-  features: [
-    "Background",
-    "Eyes",
-    "Nose",
-    "Hair",
-    "Mouth",
-    "Ears",
-    "Jewellery",
-  ],
+  features: ["Background", "Filters Applied", "Painted", "Graphic Design"],
   reportByFeatures: {},
 };
 

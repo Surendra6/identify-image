@@ -1,1 +1,1 @@
-export const IMAGE_URL = "http://localhost:3000/api/v1/image";
+export const IMAGE_URL = "https://picsum.photos/200";

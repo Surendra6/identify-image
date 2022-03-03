@@ -1,5 +1,4 @@
 module.exports = {
-  transpileDependencies: [
-    'vuetify'
-  ]
-}
+  publicPath: "/identify-image/",
+  transpileDependencies: ["vuetify"],
+};
